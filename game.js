@@ -5,6 +5,7 @@ const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 const userScoreDisplay = document.querySelector("#user-score");
 const compScoreDisplay = document.querySelector("#comp-score");
+const resetBtn = document.querySelector("#resetBtn");  // NEW
 
 const genCompChoice = () => {
     const options = ["rock", "paper", "scissors"];
@@ -55,7 +56,21 @@ const playGame = (userChoice) => {
     }
 };
 
-// ✅ FIXED: Event listener is where userChoice gets defined
+// NEW: Reset Game Function
+const resetGame = () => {
+    userScore = 0;
+    compScore = 0;
+    userScoreDisplay.innerText = userScore;
+    compScoreDisplay.innerText = compScore;
+    msg.innerText = "Play your move";
+    msg.style.backgroundColor = "#081b31";
+    console.log("Game Reset!");
+};
+
+// NEW: Reset button event listener
+resetBtn.addEventListener("click", resetGame);
+
+// Game play event listeners
 choices.forEach((choice) => {
     console.log(choice);
     choice.addEventListener("click", () => {
