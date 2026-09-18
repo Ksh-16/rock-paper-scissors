@@ -17,7 +17,6 @@ h1{
 .choice:hover{
     cursor: pointer;
     background-color: #081b31;
-
 }
 img{
     height: 150px;
@@ -53,4 +52,32 @@ img{
     font-size: 2rem;
     padding:1rem;
     border-radius: 1rem;
+}
+
+/* NEW: Reset Button Styles */
+.button-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.reset-btn{
+    background-color: #081b31;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.reset-btn:hover{
+    background-color: #fff;
+    color: #081b31;
+    transform: scale(1.05);
+}
+
+.reset-btn:active{
+    transform: scale(0.95);
 }
