@@ -2,8 +2,11 @@
 
 A classic **Rock Paper Scissors** game built with vanilla HTML, CSS, and JavaScript. Play against the computer and track your score in real-time!
 
+🔗 **[Play Live Demo](https://ksh-16.github.io/rock-paper-scissors/)** - Click here to play the deployed version on GitHub Pages!
+
 ## 📋 Table of Contents
 - [Overview](#overview)
+- [Live Demo](#-live-demo)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [How to Use](#how-to-use)
@@ -22,6 +25,14 @@ This is a fun, interactive Rock Paper Scissors game where you can play against a
 - Visual feedback with color-coded messages
 - Scoreboard tracking
 - Responsive button interactions with hover effects
+
+---
+
+## 🎮 Live Demo
+
+🌐 **[Play the Game Now!](https://ksh-16.github.io/rock-paper-scissors/)**
+
+The game is deployed and live on GitHub Pages. Click the link above to play immediately without any setup required!
 
 ---
 
